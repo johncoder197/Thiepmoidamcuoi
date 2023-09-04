@@ -25,5 +25,16 @@ body {
 }
 .container {
     text-align: center;
-    margin-top: 100px;
+    margin: 0 auto;
+    text-align: center;
+}
+.h2 {
+    font-weight: normal;
+    letter-spacing: 200px;
+    text-transform: uppercase;
+}
+li {
+    display: inline-block;
+    font-size: larger;
+    
 }
