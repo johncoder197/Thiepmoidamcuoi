@@ -34,20 +34,18 @@ p2 {
     font-size:larger;
     color:#e03636;
     font-weight: bolder;
-    text-align: center;
+    text-align: fixed;
     padding: 120px;
 }
-p3 {
+/* p3 {
     font-size: larger;
     font-weight: bolder;
     color: #d30147;
     text-align: center;
     position: fixed;
     top: 0%;
-    bottom: 0%;
-    
-    
-}
+    bottom: 0%;    
+} */
 .QN {
     float: left;
 }
