@@ -4,11 +4,7 @@ html, body {
     padding: 0;
     position: fixed;
 }
-body {
-    display:  grid;
-    text-shadow: 0.4px 0.4px 0.4px rgba(229, 233, 218, 0.5);
 
-}
 h1 {
     font-weight: bolder;
     font-size: xx-large;
@@ -29,7 +25,6 @@ p1 {
     font-weight: bolder;
     text-align: center;
     padding: 450px;
-    margin-right: 100px;
 }   
 p2 {
     font-size:larger;
@@ -136,11 +131,11 @@ p2 {
 }
 html, body {
     height: 100%;
+    padding-bottom: 50px;
     margin: 0;
 }
 body {
     align-items: center;
-    background-color: #ffd54f;
     display: flex;
     font-family: -apple-system, 
       BlinkMacSystemFont, 
@@ -163,19 +158,21 @@ h2 {
     display: inline-block;
     letter-spacing: .125rem;
     text-transform: uppercase;
-    color:#d4134d;
+    color:#b82828;
 }
 li {
     display: inline-block;
-    font-size: 1.5em;
+    font-size: 1.25em;
     list-style-type: none;
-    padding: 1em;
+    padding: 1.5em;
     text-transform: uppercase;
+    color: #000;
 }
 li span {
-    display: inline-block;
-    font-size: 4.5rem;
-    color: #b82828;
+    display: block;
+    font-weight: bolder;
+    color: #000;
+    margin-right: 100px;
 }
 @media all and (max-width: 768px) {
     h2 {
