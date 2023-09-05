@@ -16,7 +16,6 @@
     if (today > wedding) {
         wedding = dayMonth + nextYear;
     }
-   
     const countDown = new Date(wedding).getTime(),
       x = setInterval(function() {
         const now = new Date().getTime(),
