@@ -11,6 +11,7 @@ h1 {
     text-align: center;
     color: #e41258;
     background-size: cover;
+    margin-top: 700px;
 }
 p {
     font-size: larger;
@@ -45,8 +46,6 @@ p2 {
 }
 #info .one {
     padding: 120px;
-    position: center;
-    background-size: fixed;
     object-fit: cover;
     text-align: center;
     float: left;
@@ -152,6 +151,7 @@ body {
     color: #b82828;
     margin-left: 500px;
     text-align: center;
+    margin-bottom: 700px;
 }
 h2 {
     font-weight: bolder;
@@ -159,6 +159,7 @@ h2 {
     letter-spacing: .125rem;
     text-transform: uppercase;
     color:#b82828;
+    margin-bottom: 400px;
 }
 li {
     display: inline-block;
@@ -167,12 +168,14 @@ li {
     padding: 1.5em;
     text-transform: uppercase;
     color: #000;
+    margin-bottom: 100px;
 }
 li span {
     display: block;
     font-weight: bolder;
     color: #000;
-    margin-right: 100px;
+    margin-right: 300px;
+    
 }
 @media all and (max-width: 768px) {
     h2 {
