@@ -7,21 +7,20 @@ html, body {
 
 h1 {
     font-weight: bolder;
-    font-size: xx-large;
+    font-size: 1vw;
     text-align: center;
     color: #e41258;
-    background-size: cover;
-    margin-top: 700px;
+    margin-top: 250px;
 }
 p {
-    font-size: larger;
+    font-size: 1vw;
     color:#d4134d;
     font-weight: bolder;
     grid-column: auto;
     text-align: center;
 }
 p1 {
-    font-size:larger;
+    font-size: 1vw;
     color:#e03636;
     font-weight: bolder;
     text-align: center;
@@ -130,7 +129,7 @@ p2 {
 }
 html, body {
     height: 100%;
-    padding-bottom: 50px;
+    padding-bottom: 300px;
     margin: 0;
 }
 body {
@@ -151,7 +150,10 @@ body {
     color: #b82828;
     margin-left: 500px;
     text-align: center;
-    margin-bottom: 700px;
+    margin-bottom: 800px;
+}
+.countdown {
+    position: center;
 }
 h2 {
     font-weight: bolder;
@@ -159,7 +161,6 @@ h2 {
     letter-spacing: .125rem;
     text-transform: uppercase;
     color:#b82828;
-    margin-bottom: 400px;
 }
 li {
     display: inline-block;
@@ -167,13 +168,12 @@ li {
     list-style-type: none;
     padding: 1.5em;
     text-transform: uppercase;
-    color: #000;
-    margin-bottom: 100px;
+    color: #b41818;
 }
 li span {
     display: block;
     font-weight: bolder;
-    color: #000;
+    color: #c42a2a;
     margin-right: 300px;
     
 }
