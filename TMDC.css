@@ -182,7 +182,7 @@ li span {
     text-transform: uppercase;
     
 }
-@media all and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     h2 {
       font-size: calc(1.5rem * var(--smaller));
     }
@@ -193,4 +193,13 @@ li span {
     li span {
       font-size: calc(3.375rem * var(--smaller));
     }
+}
+.column {
+    width: 100%;
+}
+@media (min-width: 1000px) {
+    .column {width: 50%;}
+}
+main {
+    display: flex;
 }

@@ -1,0 +1,54 @@
+/* meta viewport
+- Điều chỉnh trang theo kích thước theo chiều rộng của thiết bị
+* Nếu thiếu meta viewport thì website bị thu nhỏ và không có phản hồi*/
+/* Mobile first */
+/* Media Queries là một phần quan trọng của responsive web, thường được sử dụng cho bố cục lưới, 
+font-size, 
+margin và padding khác nhau giữa kích thước và hướng màn hình. 
+. column: có chiều rộng = 100% đối với thiết bị nhỏ hơn
+Nhưng trong cửa sổ lớn hơn sẽ là 50%.
+@media (min-width: 600px): dành riêng cho thiết bị có chiều rộng tối thiểu là 600px.
+Đối với khunh hình rộng hơn 600px, .column có chiều rộng = 50% giá trị gốc. */
+/* Note */
+/* 
+Dưới 576px: Thiết bị cực nhỏ như điện thoại di động ở chế độ dọc.
+
+Từ 576px đến dưới 768px: Thiết bị màn hình nhỏ như điện thoại di động ở chế độ ngang
+
+Từ 768px đến dưới 992px: thiết bị màn hình trung bình như máy tính bảng
+
+Từ 992px đến dưới 1200px: Thiết bị lớn như máy tính để bàn
+
+Từ 1200px trở lên: Các thiết bị có màn hình máy tính cực lớn. */
+/* Flex-box: để căn giữa theo chiều dọc với CSS và tạo bố cục lưới responsive */
+/* Flex-box để bố trí, căn chỉnh và phân phối không gian giữa các items trong 1 container, ngay khi kích thước của nó là flex */
+
+/* Ví dụ: 
+main {
+    background: #d9d7d5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+    
+div {
+    background: #767775;
+    flex-basis: 100%;
+    height: 100px;
+    margin-bottom: 0.5rem;
+    }   
+@media (min-width: 600px) {
+main {
+    flex-wrap: nowrap;
+    }
+div {
+    flex-basis: 33%;
+    }
+    } */
+/* Display: flex; => thiết lập bố cục flex-box cho main (container) 
+Để tạo cho Mobile first: 
+- flex-wrap: wrap;
+- flex-basis: 100%; trên phần div => đảm bảo có chiều rộng 100% phần tử cha trong flex-box.
+@media (min-width: 600px): áp dụng css này cho màn hình từ 600px trở lên.
+main {flex-wrap: wrap;} => đảm bảo các phần tử duy trì trên một dòng dù kích thước có mở rộng hơn. 
+div {flex-basis: 33%;} => các cột sẽ có chiều rộng = 33% chiều rộng của main */
