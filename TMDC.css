@@ -7,7 +7,7 @@ html, body {
 
 h1 {
     font-weight: bolder;
-    font-size: 1vw;
+    font-size: x-large;
     text-align: center;
     color: #e41258;
     margin-top: 250px;
@@ -70,7 +70,7 @@ p2 {
 }
 .QN {
     margin: 10px;
-    padding: 20px 10px 10px 16px;
+    padding: 20px;
     background-color: rgb(82, 114, 23);
     color:rgba(7, 7, 194, 0.993);
     font-size: medium;
@@ -100,8 +100,8 @@ p2 {
 }
 #music {
     opacity: .3;
-    margin-top: 400px;
-    margin-bottom: 200px;
+    margin-top: 300px;
+    margin-bottom: 300px;
     position: relative;
     width: 300px;
     height: 54px;
@@ -160,21 +160,26 @@ h2 {
     display: inline-block;
     letter-spacing: .125rem;
     text-transform: uppercase;
-    color:#b82828;
+    color:#b82828;    
 }
 li {
     display: inline-block;
     font-size: 1.25em;
     list-style-type: none;
     padding: 1.5em;
+    margin: auto;
     text-transform: uppercase;
     color: #b41818;
+    font-weight: bolder;
+    
 }
 li span {
     display: block;
     font-weight: bolder;
     color: #c42a2a;
     margin-right: 300px;
+    margin: auto;
+    text-transform: uppercase;
     
 }
 @media all and (max-width: 768px) {
