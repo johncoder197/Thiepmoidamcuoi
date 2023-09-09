@@ -52,3 +52,22 @@ div {
 @media (min-width: 600px): áp dụng css này cho màn hình từ 600px trở lên.
 main {flex-wrap: wrap;} => đảm bảo các phần tử duy trì trên một dòng dù kích thước có mở rộng hơn. 
 div {flex-basis: 33%;} => các cột sẽ có chiều rộng = 33% chiều rộng của main */
+
+/* Kỹ thuật cuộn ngang: Overflow Scroll */
+/* Ví dụ:
+menu {
+    background: #d9d7d5;
+    padding: 0.25rem;
+    overflow-y: scroll;
+    white-space: nowrap;
+}
+span {
+    background: #767775;
+    color: #ffffff;
+    display: inline-block;
+    margin: 0.25rem;
+    padding: 0.5rem;
+} */
+/* overflow-y: scroll; => Chỉ định overflow-y sẽ cắt nội dung ở trên và dưới. Scroll để thêm thạnh cuộn làm tràn trục hoành (y)
+Để yêu cầu trình duyệt không xuống hàng các phần tử con: white-space: nowrap;
+*/

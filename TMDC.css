@@ -182,7 +182,10 @@ li span {
     text-transform: uppercase;
     
 }
-@media screen and (max-width: 768px) {
+@media only screen and (min-width: 800px) {
+    .column {
+        width: 100%;
+    }
     h2 {
       font-size: calc(1.5rem * var(--smaller));
     }
@@ -194,12 +197,26 @@ li span {
       font-size: calc(3.375rem * var(--smaller));
     }
 }
-.column {
-    width: 100%;
-}
-@media (min-width: 1000px) {
-    .column {width: 50%;}
-}
+
 main {
+    background: #d9d7d5;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
+div {
+    flex-basis: 33%;
+}
+menu {
+    background: #d9d7d5;
+    padding: 0.25rem;
+    overflow-y: scroll;
+    white-space: nowrap;
+}
+span {
+    color: #ffffff;
+    display: inline-block;
+    margin: 0.25rem;
+    padding: 0.5rem;
+}
+
