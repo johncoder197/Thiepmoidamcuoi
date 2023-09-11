@@ -23,14 +23,14 @@ p1 {
     color:#e03636;
     font-weight: bolder;
     text-align: center;
-    padding: 200px 200px 200px 200px;
+    margin: 100px;
 }   
 p2 {
     font-size:larger;
     color:#e03636;
     font-weight: bolder;
-    text-align: fixed;
-    padding: 200px 200px 200px 200px;
+    text-align: center;
+    margin: 100px;
 }
 .QN {
     float: left;
@@ -44,15 +44,13 @@ p2 {
 }
 #info .one {
     padding: 120px;
+    margin: 20px 20px 20px 20px;
     object-fit: cover;
-    text-align: center;
     float: left;
 }
 #info .two {
     padding: 120px;
-    position: center;
-    background-size: fixed;
-    text-align: justify;
+    margin: 20px 20px 20px 20px;
     object-fit: cover;
     float: right;
 }
