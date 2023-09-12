@@ -211,7 +211,7 @@ li span {
     padding: 0.25rem;
     
 }
-@media (min-width: 1280px) {
+@media only screen and (min-width: 1280px) {
     .column {
         width: 100%;
     }
